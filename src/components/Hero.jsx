@@ -3,7 +3,7 @@ export default function Hero() {
         <div className="hero p-4 my-4">
             <h1 className="text-lg sm:text-2xl font-semibold text-orange-800 dark:text-orange-600 my-2">Coffe Tracking for Coffee <abbr title="An enthusiast or devotee">Fiends</abbr>!</h1>
             <div className="benefits-list m-2">
-                <h3 className="text-md sm:text-xl text-slate-800 dark:text-slate-200">Try <span className="text-gradient font-bold">Caffiend</span> and start ...</h3>
+                <h3 className="text-md sm:text-xl text-slate-800 dark:text-slate-200">Try <span className="text-gradient font-bold">Caffidose</span> and start ...</h3>
                 <p>✅ Tracking every coffee</p>
                 <p>✅ Estimating your blood caffeine levels</p>
                 <p>✅ Costing and quantifying your addition</p>

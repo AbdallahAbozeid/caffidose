@@ -6,7 +6,7 @@ export default function Layout(props) {
     const header = (
         <header className="p-5 flex justify-between items-center bg-gray-300 dark:bg-zinc-900 mb-4 shadow-md">
             <div>
-                <h1 className="text-gradient uppercase font-bold text-3xl sm:text-4xl">caffiend</h1>
+                <h1 className="text-gradient uppercase font-bold text-3xl sm:text-4xl">caffidose</h1>
                 <p className="text-sm text-cinnamon-100 font-semibold ms-1">For Coffee Insatiates</p>
             </div>
             <button className="btn flex items-center gap-2 bg-yellow-600 dark:bg-yellow-400 text-neutral-200 dark:text-neutral-700 border-4 border-orange-900" onClick={globalUser ? logout : handleOpenModal}>
