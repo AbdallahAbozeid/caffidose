@@ -28,7 +28,6 @@ export default function CoffeeForm(props) {
             const timeStamp = timeNow - timeToSubtract
             const newEntry = { name: selectedCoffee, cost: coffeeCost }
             newGlobalData[timeStamp] = newEntry
-            console.log(timeStamp, selectedCoffee, coffeeCost)
             //update the global state
             setGlobalData(newGlobalData)
             //persist the data in the firebase

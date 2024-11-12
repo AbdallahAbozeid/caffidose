@@ -4,7 +4,6 @@ import { timeSinceConsumption, getCaffeineAmount, calculateCurrentCaffeineLevel 
 export default function Histroy() {
     const { globalData } = useAuth()
     const sortedTimeStamps = Object.keys(globalData).sort((a, b) => { return b - a })
-    console.log(sortedTimeStamps)
     return (
 
         <div className="form p-4 shadow-inner dark:shadow-zinc-900">
